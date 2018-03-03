@@ -1,0 +1,85 @@
+/* * {
+    outline: 1px solid red !important;
+    } */
+
+
+/* Footer */
+.pagewrap {
+    min-height: 100%;
+    margin-bottom: -30px; 
+    }
+.pagewrap:after {
+    content: "";
+    display: block;
+    height: 30px;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    font-size: 12px;    
+    background: url(../images/smallStars.png);
+    background-repeat: repeat-x;
+    background-position-x: center;
+    background-color: darkslategray;
+    color: lightpink;
+}
+
+footer .credit a{
+    color: slategray;
+} 
+
+/* BODY */
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: lightgrey;
+    background: url(../images/1607.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 0;
+    background-color: #051626;
+}
+
+.bgTransparent {
+    background:rgba(26,36,98, 0.8);
+    padding: 1em;
+}
+
+h1 {
+    font-family: Audiowide, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.timer {
+    color: #ffff00;
+}
+
+#gameCanvas {
+    display: none;
+}
+
+.jumbotron {
+    margin-top: 60px;
+    background: transparent;
+}
+
+
+
+@media screen and (max-width: 475px) {
+    h1 {
+        font-size: 25px;  
+    }
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h3 {
+        font-size: 18px;  
+    }
+    body {
+        font-size: 16px;
+    }
+}
+

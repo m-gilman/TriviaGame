@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Audiowide" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
+        <a class="navbar-brand" href="https://m-gilman.github.io/">Melissa Gilman</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://m-gilman.github.io/index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://m-gilman.github.io/portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://m-gilman.github.io/contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- MAIN CONTAINER... Everything except nav and header will be inside this container -->
+    <div class="pagewrap container">
+        <div class="row mt-5 pt-3">  
+        </div> <!-- The first row is hidden under the navbar -->
+<!--/END navigation -->        
+        <div class="row-md-2 text-center" id="gameTitle">
+            
+            <div class="row">
+                <div class="col">
+                    <h1>Wall-E Trivia Game </h1>
+                </div>
+            </div> <!-- /End of title row -->
+            
+            <div id="splashScreen">
+                <div class="jumbotron">
+                    <a class="btn btn-primary btn-lg" id=startButton href="#" role="button">Click Here to Start</a>
+                </div>
+            </div>
+
+
+            <div id="gameCanvas">
+                <div class="row" id="timer">
+                    <div class="col">
+                        <h4 class="timer">Timer: 00:30</h4>
+                    </div>
+                </div> <!-- /End of timer  row -->
+
+                <div class="row" id="question">
+                    <div class="col">
+                        <h3>The Captain tells the kids that they are going to grow Vegetable Plants and what other kind of plants when they return to Earth?</h3>
+                        <p>Option #1</p>
+                        <p>Option #2</p>
+                        <p>Option #3</p>
+                        <p>Option #4</p>            
+                    </div>
+                </div> <!-- /End of question  row -->
+    
+                <div class="row" id="questionImg">
+                    <div class="col">
+                        <img src="./assets/images/Wall-E.png" class="mb-2 img-fluid" alt="Wall-E and EVE">
+                    </div>
+                </div> <!-- /End of questionImg row -->
+            </div> <!-- /End of gameCanvas -->
+        </div><!-- /End of pagewrap CONTAINER -->
+    </div><!-- /END OF MAIN CONTAINER... Everything except nav and header will be inside this container -->
+
+    <footer class="p-2 fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm text-center">
+                </div>
+                <div class="col-sm text-center"> &copy; Copyright 2018 Melissa Gilman
+                </div>
+                <div class="col-sm text-center">
+                    <p class="credit text-right">Credit images: 
+                        <a href="https://www.freepik.com/free-photos-vectors/design" target="_blank">Design vector created by Freepik</a> 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/javascript/app.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
