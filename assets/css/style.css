@@ -50,7 +50,7 @@ h1 {
     font-family: Audiowide, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-.timer {
+#timeHolder {
     color: #ffff00;
 }
 
@@ -63,6 +63,10 @@ h1 {
     background: transparent;
 }
 
+.possibilities:hover {
+    background-color: blue;
+    /* color: blue; */
+}
 
 
 @media screen and (max-width: 475px) {

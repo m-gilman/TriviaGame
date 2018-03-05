@@ -52,25 +52,34 @@
 
 
             <div id="gameCanvas">
-                <div class="row" id="timer">
+                <div class="row">
                     <div class="col">
-                        <h4 class="timer">Timer: 00:30</h4>
+                        <h4 id="timeHolder">30 Seconds</h4>
                     </div>
                 </div> <!-- /End of timer  row -->
 
-                <div class="row" id="question">
+                <div class="row" >
                     <div class="col">
-                        <h3>The Captain tells the kids that they are going to grow Vegetable Plants and what other kind of plants when they return to Earth?</h3>
-                        <p>Option #1</p>
-                        <p>Option #2</p>
-                        <p>Option #3</p>
-                        <p>Option #4</p>            
+                        <h3 id="questionLocation">Here's Your Question</h3>
                     </div>
                 </div> <!-- /End of question  row -->
+                <div class="row">
+                    <div class="col"></div> <!-- empty column for spacing -->
+                    <div class="col" id="displayOptions">
+                        <p class="possibilities" id="dispOption1">Option #1</p>
+                        <hr>
+                        <p class="possibilities" id="dispOption2">Option #2</p>
+                        <hr>
+                        <p class="possibilities" id="dispOption3">Option #3</p>
+                        <hr>
+                        <p class="possibilities" id="dispOption4">Option #4</p>            
+                    </div>
+                    <div class="col"></div> <!-- empty column for spacing -->
+                </div> <!-- /End of question  row -->
     
-                <div class="row" id="questionImg">
+                <div class="row">
                     <div class="col">
-                        <img src="./assets/images/Wall-E.png" class="mb-2 img-fluid" alt="Wall-E and EVE">
+                        <img id="questionImg" src="#" class="mb-2 img-fluid" alt="Wall-E">
                     </div>
                 </div> <!-- /End of questionImg row -->
             </div> <!-- /End of gameCanvas -->
