@@ -155,7 +155,7 @@ $(document).ready(function () {
             option3: "Cupcake in a Cup", 
             option4: "Spa Treatment from Pr-T bot",
             answer: "Cupcake in a Cup",
-            quote: '"So, be sure next mealtime to ask for your "Free Septuacentennial Cupcake In A Cup!"',
+            quote: '"So, be sure next mealtime to ask for your Free Septua-Centennial Cupcake In A Cup!"',
             imgSrc: "https://media.giphy.com/media/HSLbIjLk2GsBa/giphy.gif  "
         },
         quiz8: {
