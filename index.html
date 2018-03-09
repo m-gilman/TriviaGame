@@ -54,32 +54,50 @@
             <div id="gameCanvas">
                 <div class="row">
                     <div class="col">
-                        <h4 id="timeHolder">30 Seconds</h4>
+                        <h4 class="time" id="timeHolder">Time</h4>
                     </div>
                 </div> <!-- /End of timer  row -->
-
-                <div class="row" >
-                    <div class="col">
-                        <h3 id="questionLocation">Here's Your Question</h3>
-                    </div>
-                </div> <!-- /End of question  row -->
+                <div id="questionPage">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="mb-3" id="questionLocation">Here's Your Question</h3>
+                        </div>
+                    </div> <!-- /End of question  row -->
+                    <div class="row">
+                        <div class="col"></div> <!-- empty column for spacing -->
+                        <div class="col">
+                            <button class="possibilities btn btn-primary btn-lg" id="dispOption1">Option #1</button>
+                            <hr>
+                            <button class="possibilities btn btn-primary btn-lg" id="dispOption2">Option #2</button>
+                            <hr>
+                            <button class="possibilities btn btn-primary btn-lg" id="dispOption3">Option #3</button>
+                            <hr>
+                            <button class="possibilities btn btn-primary btn-lg" id="dispOption4">Option #4</button>
+                            <hr>
+                        </div>
+                        <div class="col"></div> <!-- empty column for spacing -->
+                    </div> <!-- /End of question  row -->
+                </div> <!-- /END of questionPage -->
+                <div id="statusPage"> <!-- Status div hidden until questions are answered -->    
+                    <h3 class="mb-3" id="statusLocation">You have answered OR you ran out of time</h3>
+                    <h4>The answer was: </h4>
+                    <h4 id="correctAnswer">ANSWER</h4>
+                    <br>
+                    <h5 id="quote">"Quote"</h5>
+                    <br>
+                    <p class="tiny">...The next question will load automatically</p>
+                </div>
+                <div id="endPage">
+                    <h3 class="mb-3">All done, here's how you did!</h3>
+                    <h4>Correct Answers: <span id="correct">#</span> </h4>
+                    <h4>Incorrect Answers: <span id="incorrect">#</span> </h4>
+                    <h4>Unanswered: <span id="unanswered">#</span> </h4>
+                    <a class="my-5 btn btn-primary btn-lg" id=startOver href="#" role="button">Start Over?</a>
+                    <br>
+                </div>
                 <div class="row">
-                    <div class="col"></div> <!-- empty column for spacing -->
-                    <div class="col" id="displayOptions">
-                        <p class="possibilities" id="dispOption1">Option #1</p>
-                        <hr>
-                        <p class="possibilities" id="dispOption2">Option #2</p>
-                        <hr>
-                        <p class="possibilities" id="dispOption3">Option #3</p>
-                        <hr>
-                        <p class="possibilities" id="dispOption4">Option #4</p>            
-                    </div>
-                    <div class="col"></div> <!-- empty column for spacing -->
-                </div> <!-- /End of question  row -->
-    
-                <div class="row">
                     <div class="col">
-                        <img id="questionImg" src="#" class="mb-2 img-fluid" alt="Wall-E">
+                        <img id="questionImg" src="./assets/images/Wall-E.png" class="mb-2 img-fluid" alt="Wall-E">
                     </div>
                 </div> <!-- /End of questionImg row -->
             </div> <!-- /End of gameCanvas -->
